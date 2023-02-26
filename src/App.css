@@ -1,0 +1,53 @@
+
+.outfit>div{
+  width: 10rem;
+  height: 5rem;
+}
+
+.combinations{
+  display: flex;
+  width: 80%;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+
+}
+
+.outfit{
+  display: flex;
+  flex-direction: column;
+  border: 4px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  gap: 1rem;
+  background-color: white;
+
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.shirt{
+  background-color: black;
+}
+
+
+.index{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.title{
+  width: 80%;
+  margin: 1rem auto;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+body{
+  background-color: #000058;
+  color: #EDEADE;
+}
